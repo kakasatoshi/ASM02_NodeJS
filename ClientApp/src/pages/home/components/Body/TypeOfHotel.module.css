@@ -1,0 +1,29 @@
+.title-hotel {
+  color: #000;
+  font-weight: 800;
+}
+
+.type-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.type-list div {
+  width: 18%;
+}
+
+.type-list img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.type-list .name-type {
+  font-weight: bold;
+  font-size: larger;
+  color: #444;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}

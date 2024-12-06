@@ -1,0 +1,15 @@
+.column-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-footer ul {
+  list-style: none;
+  font-size: 12px;
+  color: #4847aa;
+}
+
+.column-footer li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

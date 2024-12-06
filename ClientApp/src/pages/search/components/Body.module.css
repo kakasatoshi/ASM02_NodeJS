@@ -1,0 +1,248 @@
+/* =================================== CSS for Body Component ======================================= */
+.search-result {
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  margin-left: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #298fee;
+  border: solid 1px #55a4ee;
+  border-radius: 10px;
+}
+
+.not-found {
+  color: #f00;
+}
+
+/* =================================== CSS for Search Popup ========================================= */
+
+.search-popup {
+  position: relative;
+  width: 270px;
+  height: 490px;
+  background-color: #febb02;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.search-popup h4 {
+  font-weight: bold;
+  color: #585555;
+  margin-top: 5px;
+}
+
+.search-popup p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.search-popup input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.checkin-date::placeholder {
+  color: #000;
+}
+
+.div-option * {
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+
+.div-option input {
+  width: 55px;
+  height: 25px;
+  margin-right: 5px;
+  border: 1px solid #767676;
+  font-size: 15px;
+}
+
+.div-option div {
+  margin-left: 12px;
+  color: #7f6e40;
+  font-size: 14px;
+}
+
+.search-btn {
+  height: 38px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #0071c2;
+  color: #fff;
+}
+
+.search-btn:hover {
+  background-color: #5c9610;
+}
+
+.search-btn:active {
+  scale: 95%;
+}
+
+.date-range {
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  left: 0%;
+  transform: translate(50%, 0%);
+}
+
+/* =================================== CSS for Search List ========================================= */
+.result-item {
+  display: grid;
+  grid-template-columns: 5fr 7fr 4fr;
+  border-radius: 6px;
+  height: 235px;
+  width: 100%;
+  margin-left: 50px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 20px;
+}
+
+.result-item > div {
+  margin: 10px 5px 10px 10px;
+  /* height: 56%; */
+  height: auto;
+}
+
+.result-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.result-item > div:nth-child(2) {
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.result-item > div:nth-child(3) {
+  margin-right: 10px;
+  /* margin-right: 5px; */
+}
+
+.hotel-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0071c2;
+  margin-top: 5px;
+
+  /* CSS for Overview: if content is overflow then cut down content and insert three dot (content overflow...) */
+  display: -webkit-box;
+  max-width: 300px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.distance {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.tag-content {
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 10px;
+  background-color: #008009;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+
+  /* CSS for Overview: if content is overflow then cut down content and insert three dot (content overflow...) */
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.type-hotel {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.free-cancel {
+  color: #3b8525;
+  font-size: 12px;
+}
+
+.free-cancel > div:first-child {
+  font-weight: 800;
+}
+
+.free-cancel div {
+  margin-top: 6px;
+}
+
+.ratting-inform {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 3px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ratting-inform > span:nth-child(2) {
+  background-color: #003580;
+  padding: 3px 5px;
+  color: #fff;
+  /* padding: 2px; */
+}
+
+.price-details {
+  margin-top: 80px;
+  text-align: right;
+  /* padding-right: 10px; */
+}
+
+.price-details > div:nth-child(1) {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price-details > div:nth-child(2) {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #97959a;
+}
+
+.price-details > button {
+  display: inline-block;
+  height: 38px;
+  background-color: #0071c2;
+  color: #fff;
+  margin-top: 3px;
+  margin-right: 0px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px 22px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.price-details > button:hover {
+  background-color: #968005;
+}
+
+.price-details > button:active {
+  scale: 95%;
+}

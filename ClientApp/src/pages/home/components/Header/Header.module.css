@@ -1,0 +1,63 @@
+.header-style {
+  position: relative;
+  height: 300px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-register-login {
+  background-color: #efefef;
+  border: none;
+  height: 30px;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #003583;
+  font-size: 15px;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sub-title {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.btn-signin-register {
+  display: inline-block;
+  border: none;
+  height: 30px;
+  background-color: #0071c2;
+  color: #fff;
+  box-sizing: content-box;
+  padding: 5px 10px;
+  margin-top: 30px;
+  text-decoration: none;
+  align-content: center;
+}
+
+.btn-signin-register:hover {
+  background-color: #5c9610;
+}
+
+.btn-signin-register:active {
+  scale: 95%;
+}
+
+.input-search-element {
+  width: 70%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

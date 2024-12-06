@@ -1,0 +1,187 @@
+.page-container {
+  padding: 15px;
+  min-height: 100%;
+  height: fit-content;
+}
+
+.top-title {
+  padding: 6px 13px;
+  color: #e6a8a8;
+  height: 45px;
+  align-content: center;
+}
+
+.form-add-new {
+  padding: 12px 40px;
+  margin-top: 2%;
+  /* min-height: 89%;  */
+  height: fit-content;
+}
+
+.top-title,
+.form-add-new {
+  box-shadow: 2px 3px 10px 3px rgba(0, 0, 0, 0.12); /* Bóng đổ cho popup */
+}
+
+.input-group {
+  width: 42%;
+}
+
+.input-item {
+  margin-bottom: 25px;
+}
+
+.input-item label {
+  font-size: 13px;
+}
+
+.input-item > input {
+  font-size: 12px;
+  padding: 8px 25px 8px 10px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #8f7e7e;
+
+  /* CSS for Overview: if content is overflow then cut down content and insert three dot (content overflow...) */
+  white-space: nowrap; /* Giới hạn văn bản trong một dòng */
+  overflow: hidden; /* Ẩn phần văn bản thừa */
+  text-overflow: ellipsis; /* Thêm dấu ba chấm khi văn bản quá dài */
+}
+
+.input-item > input:focus {
+  outline: none;
+}
+
+.image-input {
+  display: flex;
+  flex-direction: column;
+  min-height: 35px;
+  height: fit-content;
+  outline: none;
+  border-radius: 3px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.image-input > input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  padding: 5px;
+}
+
+.image-input > input:focus {
+  border: 1px solid #0d0ab6;
+}
+
+.feature {
+  width: 13%;
+  font-size: 13px;
+  padding: 3px;
+  outline: none;
+}
+
+.image-input,
+.feature {
+  margin-top: 15px;
+}
+
+.list-rooms {
+  height: 120px;
+  min-height: 120px;
+  max-height: fit-content;
+  resize: vertical;
+  width: 100%;
+  list-style: none;
+  border: 1px solid #8f7e7e;
+  border-radius: 3px;
+  overflow: auto;
+  font-size: 12px;
+  padding: 3px 0px;
+}
+
+.selected-item {
+  background-color: rgb(16, 202, 16) !important;
+  color: #fff;
+}
+
+.list-rooms {
+  margin-top: 13px;
+}
+
+.list-rooms > li {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.list-rooms > li:hover {
+  background-color: #1967d3;
+  color: #fff;
+  cursor: default;
+}
+
+.button-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancel-btn {
+  background-color: #b43671;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+.send-btn,
+.cancel-btn {
+  outline: none;
+  border: none;
+  width: 14%;
+  height: 35px;
+  font-size: 13px;
+  color: #fff;
+  margin: 20px 0px;
+}
+
+.active:hover,
+.cancel-btn:hover {
+  background-color: rgb(15, 156, 15);
+}
+
+.active {
+  background-color: #1967d3;
+}
+
+.disable {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  background-color: #af8181;
+}
+
+.disable:hover {
+  cursor: not-allowed;
+}
+
+/* ====== CSS For Instruction Access the Edit Hotel Page ====== */
+.instruction {
+  margin: 30px auto auto auto;
+  /* text-align: center; */
+  width: 60%;
+  height: 250px;
+  align-content: center;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+}
+
+.content {
+  color: #f00;
+  font-weight: bold;
+}

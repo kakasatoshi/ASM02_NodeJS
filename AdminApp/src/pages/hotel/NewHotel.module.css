@@ -1,0 +1,118 @@
+.page-container {
+  padding: 15px;
+  min-height: 100%;
+  height: fit-content;
+}
+
+.top-title {
+  padding: 6px 13px;
+  color: #e6a8a8;
+  height: 45px;
+  align-content: center;
+}
+
+.form-add-new {
+  padding: 12px 40px;
+  margin-top: 2%;
+  /* min-height: 89%;  */
+  height: fit-content;
+}
+
+.top-title,
+.form-add-new {
+  box-shadow: 2px 3px 10px 3px rgba(0, 0, 0, 0.12); /* Bóng đổ cho popup */
+}
+
+.input-group {
+  width: 42%;
+}
+
+.input-item {
+  margin-bottom: 25px;
+}
+
+.input-item label {
+  font-size: 13px;
+}
+
+.input-item > input {
+  font-size: 12px;
+  padding: 8px 10px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #8f7e7e;
+}
+
+.input-item > input:focus {
+  outline: none;
+}
+
+.image-input {
+  min-height: 35px;
+  /* height: fit-content; */
+  outline: none;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.feature {
+  width: 13%;
+  font-size: 13px;
+  padding: 3px;
+  outline: none;
+}
+
+.image-input,
+.feature {
+  margin-top: 15px;
+}
+
+.list-rooms {
+  height: 120px;
+  min-height: 120px;
+  max-height: fit-content;
+  resize: vertical;
+  width: 100%;
+  list-style: none;
+  border: 1px solid #8f7e7e;
+  border-radius: 3px;
+  overflow: auto;
+  font-size: 12px;
+  padding: 3px 0px;
+}
+
+.selected-item {
+  background-color: rgb(16, 202, 16) !important;
+  color: #fff;
+}
+
+.list-rooms {
+  margin-top: 13px;
+}
+
+.list-rooms > li {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.list-rooms > li:hover {
+  background-color: #1967d3;
+  color: #fff;
+  cursor: default;
+}
+
+.send-btn {
+  background-color: #008080;
+  outline: none;
+  border: none;
+  width: 14%;
+  height: 35px;
+  font-size: 13px;
+  color: #fff;
+  margin: 20px 0px;
+}
+
+.send-btn:hover {
+  background-color: rgb(15, 156, 15);
+}

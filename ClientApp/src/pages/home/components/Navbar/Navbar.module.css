@@ -1,0 +1,73 @@
+.navbar-style {
+  color: #fff;
+  font-size: 15px;
+}
+
+.navbar-style a {
+  text-decoration: none;
+}
+
+.home-title,
+.navbar-style label {
+  font-size: 18px;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-title {
+  color: #fff;
+}
+
+.home-title:hover {
+  color: yellow;
+}
+
+.btn-register-login {
+  display: inline-block;
+  background-color: #efefef;
+  border: none;
+  height: 30px;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #003583;
+  font-size: 15px !important;
+  align-content: center;
+}
+
+.btn-register-login:hover {
+  background-color: #7a8f06;
+  color: #fff !important;
+}
+
+.btn-register-login:active {
+  scale: 96%;
+}
+
+.navbar-content {
+  width: 65%;
+  margin-top: 3%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item i {
+  margin-right: 15px;
+}
+
+.active {
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.user-email {
+  margin-right: 20px;
+}

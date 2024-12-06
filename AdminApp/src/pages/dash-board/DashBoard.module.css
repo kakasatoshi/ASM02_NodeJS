@@ -1,0 +1,297 @@
+/* =============================================== CSS MỚI =========================================== */
+.dash-board-container {
+  padding: 10px;
+  height: fit-content;
+}
+
+.top-infor {
+  display: flex;
+  column-gap: 15px;
+  justify-content: space-between;
+  width: 100%;
+  height: 18%;
+}
+
+.top-content {
+  width: 25%;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 8px; /* Góc bo tròn */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Bóng đổ cho popup */
+}
+
+.top-content > p {
+  margin: 1px;
+}
+
+.container-icon,
+.container-icon > div {
+  display: flex;
+  justify-content: end;
+}
+
+.top-content > p:first-child {
+  color: #a3a3a3;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.top-content > p:nth-child(2) {
+  font-size: 16px;
+  /* font-weight: bold; */
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.top-content i {
+  margin: auto;
+  font-size: 15px;
+}
+
+.container-icon > div {
+  height: 26px;
+  width: 26px;
+  border-radius: 5px;
+}
+
+.user-icon {
+  background-color: #f0a1a1;
+}
+
+.user-icon > i {
+  color: #f00;
+}
+
+.cart-icon {
+  background-color: #eaec74;
+}
+
+.cart-icon > i {
+  color: #40a506;
+}
+
+.dollar-icon {
+  background-color: #cce6cc;
+}
+
+.dollar-icon > i {
+  color: #008000;
+}
+
+.wallet-icon {
+  background-color: #e6cce6;
+}
+
+.wallet-icon > i {
+  display: flex;
+  padding: 4px;
+  color: #891389;
+}
+
+.wallet-img {
+  height: 16px;
+  width: 14px;
+}
+
+.list-transaction {
+  height: fit-content;
+  margin-top: 3%;
+  box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.2); /* Bóng đổ cho popup */
+  padding: 30px 35px 15px 35px;
+}
+
+.title-list-trans {
+  /* font-weight: bold; */
+  font-size: 18px;
+  color: #887272;
+}
+
+/* ==================== CSS For List Transaction =================== */
+.text-infor {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  height: 200px;
+  color: #0071c2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.no-transaction {
+  color: #f00;
+}
+
+.header {
+  height: 45px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.header > div {
+  position: relative;
+}
+
+.header > div:nth-child(n + 2)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 33.3%; /* Bắt đầu từ 1/3 chiều cao */
+  height: 33.3%; /* Độ dài 1/3 chiều cao */
+  width: 2px; /* Độ dày của border */
+  background-color: #ddd; /* Màu của border */
+}
+
+.content {
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  width: inherit;
+  height: 40px;
+}
+
+.container-content > div:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.header div,
+.content div {
+  /* border-left: 1px solid #ddd; */
+  padding-left: 8px;
+  align-content: center;
+}
+
+.header div:last-child,
+.content div:last-child {
+  border-right: 1px solid #ddd;
+}
+
+/* .container-content > div:nth-child(odd) {
+  background-color: #f2f2f2;
+} */
+
+.container-content > div:hover {
+  background-color: #87aaec;
+  color: #fff;
+}
+
+.content div {
+  min-height: 30px;
+  /* padding: 10px; */
+}
+
+.check-box {
+  width: 3%;
+  padding: 0px !important ;
+  text-align: center !important;
+  align-content: center !important;
+  border-left: 1px solid #ddd;
+}
+
+.check-box-head {
+  border-left: none;
+}
+
+.transID {
+  width: 18%;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0px; */
+}
+
+.user-name {
+  width: 8%;
+}
+
+.hotel-name {
+  width: 20%;
+}
+
+.room-number {
+  width: 10%;
+}
+
+.booking-date {
+  width: 15%;
+}
+
+.total-amount {
+  width: 5%;
+}
+
+.payment-method {
+  width: 13%;
+}
+
+.booking-status {
+  width: 8%;
+}
+
+.booking-status-head {
+  border-right: none !important;
+}
+
+/* Style này dùng chung cho phần status của booking cho "Booked" */
+.status-style {
+  display: block;
+  border-radius: 10%;
+  width: fit-content;
+  text-align: center;
+  align-content: center;
+  padding: 5px;
+}
+
+/* Style này dùng cho "Booked" */
+.Booking {
+  background-color: #f69685;
+}
+
+.Booked {
+  background-color: #f69685;
+}
+
+.Checkin {
+  background-color: #39d139;
+}
+
+.Checkout {
+  background-color: #d3d0f2;
+}
+
+.paging-container {
+  padding: 10px;
+  border-top: none !important;
+}
+
+.paging-control {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-top: 20px; */
+}
+
+.previous-page {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.previous-page:hover,
+.next-page:hover {
+  background-color: #0071c2;
+  color: #fff;
+}
+
+.next-page {
+  margin-left: 10px;
+}
+
+.disable {
+  cursor: not-allowed;
+  color: #887272;
+}
+
+.disable:hover {
+  background-color: #fff;
+  color: #887272;
+}

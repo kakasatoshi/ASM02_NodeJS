@@ -1,0 +1,88 @@
+.input-search {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: 3px solid #febb02;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.btn-search {
+  height: 55%;
+  position: absolute;
+  background-color: #0071c2;
+  color: #fff;
+  box-sizing: content-box;
+  padding: 5px 10px;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  align-content: center;
+}
+
+.btn-search:hover {
+  background-color: #5c9610;
+}
+
+.btn-search:active {
+  scale: 95%;
+}
+
+.input-search input {
+  background-color: transparent;
+  position: relative;
+  /* width: 100%; */
+  margin-left: 13%;
+  width: 80%;
+  height: 100%;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+.input-search input:active {
+  border: none;
+}
+
+.input-search span {
+  position: relative;
+  display: inline-block;
+  width: 27%;
+  height: 100%;
+  border: none;
+  margin-left: 20px;
+}
+
+.input-search i {
+  position: absolute;
+  color: #d3d3d3;
+  top: 18px;
+  left: 10px;
+}
+
+.person {
+  color: black;
+  font-size: 20px;
+}
+
+/* Hide calendar icon of input element */
+/* input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+} */
+
+/* Set text color for "Placeholder" of input */
+.input-search input::-webkit-input-placeholder {
+  color: #dbd4d9;
+}
+
+.myDateRange {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  right: 50%;
+  transform: translate(50%, 0%);
+}

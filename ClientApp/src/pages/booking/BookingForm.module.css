@@ -1,0 +1,203 @@
+/* ================================ Section-1: CSS Style For Hotel Infomation ============================ */
+.body-container {
+  width: 80%;
+  margin: auto;
+}
+
+/* ================================ Section-2: CSS Style For Hotel Infomation ============================ */
+.hotel-infor {
+  /* padding: 0px 20px; */
+  /* margin: 0px 120px; */
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotel-detail {
+  width: 70%;
+}
+
+.hotel-info-container {
+  min-height: 150px;
+}
+
+.hotel-name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.hotel-desc {
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.frame-price-detail {
+  width: 28%;
+  background-color: #ebf3ff;
+  padding: 20px;
+  text-align: center;
+  /* height: 50%; */
+}
+
+.optional-button {
+  display: block;
+  border-radius: 6px;
+  margin-top: 20px;
+  height: 40px;
+  padding: 10px 42px;
+  background-color: #0071c2;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  font-size: 14px;
+}
+
+.frame-price-detail > p {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.frame-price-detail > p > span {
+  font-weight: normal;
+}
+
+/* ================================ Section-3: CSS Style For Booking Infomation ============================ */
+.booking-infor {
+  display: flex;
+}
+
+.date-range {
+  width: 38%;
+  /* border: 1px solid black; */
+}
+
+.user-infor {
+  width: 62%;
+  /* border: 1px solid black; */
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.infor p {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.infor input {
+  width: 100%;
+  height: 46px;
+  padding-left: 15px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* ================================ Section-4: CSS Style For Select Room Booking ============================ */
+.room-booking-container {
+  margin-top: 50px;
+}
+
+.room-item {
+  margin-bottom: 36px;
+}
+
+.room-title {
+  font-weight: bold;
+}
+
+.room-desc {
+  font-size: 15px;
+
+  /* CSS for Overview: if content is overflow then cut down content and insert three dot (content overflow...) */
+  display: -webkit-box;
+  max-width: 300px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.room-container {
+  text-align: center;
+}
+
+.room-container label {
+  font-size: 12px;
+  color: #767676;
+}
+
+.max-people {
+  font-size: 13px;
+}
+
+.room-price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.room-number:hover {
+  color: #0071c2;
+}
+
+.room-number:hover {
+  color: inherit;
+  border: 1px solid #0071c2;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.text-note {
+  text-align: center;
+  color: #694fc9;
+  font-size: 18px;
+  height: 200px;
+  font-weight: bold;
+}
+
+.booking-container {
+  margin-bottom: 80px;
+}
+
+.total-bill {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.booking-control {
+  display: flex;
+  align-items: center;
+}
+
+.reserve-btn,
+.disable-btn {
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 80px;
+  width: 180px;
+  height: 45px;
+}
+
+.booking-btn:hover {
+  background-color: #968005;
+}
+
+.reserve-btn:active {
+  scale: 95%;
+}
+
+.disable {
+  background-color: #836f6f;
+  color: #251010;
+  cursor: not-allowed;
+  opacity: 0.5;
+}

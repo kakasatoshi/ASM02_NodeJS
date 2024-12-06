@@ -1,0 +1,45 @@
+/* OK */
+/* CSS FOR NAVBAR */
+.navbar {
+  height: 10vh;
+  margin: auto;
+  background-color: #003580;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+
+.authButton {
+  background-color: #efefef;
+  color: #000 !important;
+  padding: 5px 15px;
+  font-size: 15px;
+}
+
+.authButton:hover {
+  background-color: #7a8f06;
+  color: #fff;
+}
+
+.authButton:active {
+  scale: 96%;
+}
+
+/* CSS FOR CONTENT */
+.content {
+  text-align: center;
+  background-color: #141212d0;
+  height: 90vh;
+  padding-top: 100px;
+  color: #fff;
+}
+
+/* CSS FOR TITLE */
+.content h3 {
+  color: #5db912;
+}

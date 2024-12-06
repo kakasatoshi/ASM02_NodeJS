@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ha Noi",
+    "subText": "123 properties",
+    "image": "./images/hanoi.jpg"
+  },
+  {
+    "name": "Ho Chi Minh",
+    "subText": "533 properties",
+    "image": "./images/hcm.jpg"
+  },
+  {
+    "name": "Da Nang",
+    "subText": "532 properties",
+    "image": "./images/danang.jpg"
+  }
+]

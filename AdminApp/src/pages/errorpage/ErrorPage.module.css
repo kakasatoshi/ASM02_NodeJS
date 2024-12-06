@@ -1,0 +1,13 @@
+/* CSS FOR CONTENT */
+.content {
+  text-align: center;
+  background-color: #141212d0;
+  height: 100vh;
+  padding-top: 100px;
+  color: #fff;
+}
+
+/* CSS FOR TITLE */
+.content h3 {
+  color: #5db912;
+}

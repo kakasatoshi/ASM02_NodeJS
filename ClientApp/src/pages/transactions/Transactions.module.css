@@ -1,0 +1,129 @@
+.div-container {
+  padding: 20px 15%;
+}
+
+.top-title {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.text-infor {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  height: 350px;
+  color: #0071c2;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.no-transaction {
+  color: #f00;
+}
+
+.header {
+  background-color: #32a4c1;
+  height: 55px;
+  font-weight: bold;
+}
+
+.header,
+.content {
+  border-top: 1px solid #ddd;
+}
+
+.container-content > div:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.header div,
+.content div {
+  border-left: 1px solid #ddd;
+  padding-right: 0px;
+}
+
+.header div:last-child,
+.content div:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.content {
+  font-size: 15px;
+  width: inherit;
+}
+
+.container-content > div:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.container-content > div:hover {
+  background-color: #87aaec;
+  color: #fff;
+  font-weight: bold;
+}
+
+.content div {
+  min-height: 45px;
+  padding: 10px;
+}
+
+.custom-border > div {
+  text-align: left;
+  align-content: center;
+}
+
+.order-number {
+  width: 4%;
+}
+
+.hotel-name {
+  width: 28%;
+}
+
+.room-number {
+  width: 15%;
+}
+
+.booking-date {
+  width: 20%;
+}
+
+.total-amount {
+  width: 7%;
+}
+
+.payment-method {
+  width: 16%;
+}
+
+.booking-status {
+  width: 10%;
+}
+
+/* Style này dùng chung cho phần status của booking cho "Booked" */
+.status-style {
+  display: block;
+  border-radius: 10%;
+  width: fit-content;
+  text-align: center;
+  align-content: center;
+  padding: 6px 5px;
+}
+
+/* Style này dùng cho "Booked" */
+.Booking {
+  background-color: #f69685;
+}
+
+.Booked {
+  background-color: #f69685;
+}
+
+.Checkin {
+  background-color: #39d139;
+}
+
+.Checkout {
+  background-color: #d3d0f2;
+}

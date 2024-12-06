@@ -1,0 +1,32 @@
+.div-town {
+  height: 228px;
+  color: #fff;
+  position: relative;
+}
+
+.img-town {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+
+.city-name {
+  position: absolute;
+  top: 63%;
+  left: 9%;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.sub-text {
+  position: absolute;
+  top: 80%;
+  left: 9%;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.town-list {
+  position: relative;
+  z-index: -1;
+}
